@@ -1,0 +1,1655 @@
+<meta name="copyright" content="WEBMARX">
+<meta name="author" content="WEBMARX - Digitale Full-Service E-Commerce Agentur">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+/* Copyright 2021 WEBMARX Digital Agentur | https://www.ebay.de/str/webmarx | eBay Auktionsvorlage Zorro V.1.2 */
+.header-bg {
+background-image: linear-gradient(to right, #fff,#71A5D0,#007AC9,#0056A3,#044E97,#084389,#233474);
+margin: 0;
+padding: 0
+}
+
+.footer-bg {
+background: #3e454c;
+border-top: 8px solid #5882FA;
+margin: 0;
+padding: 0
+}
+
+.content-bg {
+background: #eee;
+margin: 0;
+padding: 0
+}
+
+p,
+.container,
+.container-fluid,
+.row {
+font-size: 14px;
+font-family: 'Open Sans', serif;
+}
+
+.maincontent,
+.sidebar {
+margin: 0;
+padding: 0
+}
+.pro-dec{
+padding: 30px;
+}
+/* HEADER */
+.logo {
+margin: 0;
+padding: 0;
+vertical-align: baseline
+}
+
+.logo h1 {
+display: inline-block;
+margin: 45px 0 0 0;
+padding: 0;
+font-family: 'Open Sans', serif;
+font-size: 40px;
+line-height: 28px;
+font-weight: 700;
+color: #fff;
+text-align: left;
+}
+
+.logo h1 span {
+display: block;
+margin: 0;
+padding: 0;
+color: rgba(255, 255, 255, 0.8);
+font-weight: 700;
+font-size: 12px;
+text-transform: uppercase;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo i {
+float: left;
+width: 62px;
+height: 62px;
+margin: 35px 10px 0 0;
+padding: 10px 0 0 0;
+background: #353c42;
+color: #fff;
+-webkit-border-radius: 200px;
+-moz-border-radius: 200px;
+border-radius: 200px;
+font-size: 38px;
+text-align: center
+}
+
+.logo img {
+max-width: 350px;
+height: auto;
+margin: 35px 0 0 0;
+}
+
+.header-info {
+margin: 27px 0 0 0;
+padding: 0 0 0 120px;
+text-align: left;
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.8);
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+line-height: 30px
+}
+
+.header-info i {
+width: 22px;
+height: 22px;
+background: #3e454c;
+color: #fff;
+font-size: 12px;
+text-align: center;
+padding: 5px;
+margin: 0 5px 0 0;
+-webkit-border-radius: 22px;
+-moz-border-radius: 22px;
+border-radius: 22px;
+}
+
+.header-link {
+margin: 50px 0 0 0;
+padding: 0 0 0 80px;
+}
+
+.header-link a {
+color: rgba(255, 255, 255, 0.8);
+text-decoration: none !important;
+display: block;
+font-family: 'Open Sans', serif;
+font-weight: 700;
+text-transform: uppercase;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+line-height: 20px;
+text-align: left
+}
+
+.header-link a:hover {
+color: rgba(255, 255, 255, 0.9);
+transition: all 0.3s ease;
+}
+
+.header-link i {
+font-size: 38px;
+margin: 0;
+padding: 0;
+color: rgba(255, 255, 255, 0.8);
+}
+
+.header-link div div:first-child {
+width: 50px;
+padding: 0;
+margin: 0;
+}
+
+.header-link div div:last-child {
+font-size: 23px;
+font-weight: 700;
+padding: 0;
+margin: 0;
+}
+
+.header-link span {
+font-size: 15px;
+font-weight: 700
+}
+
+/* MENU */
+.menubar {
+background: #000;
+margin: 25px 0 0 0;
+padding: 0;
+text-align: center;
+}
+
+ul.menu {
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+
+ul.menu li {
+float: left;
+height: 70px;
+line-height: 70px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', serif;
+font-weight: 700;
+border-right: 1px solid #4c4b4b;
+font-size: 13px
+}
+ul.menu li:first-child{;
+border-left: 1px solid #4c4b4b;
+}
+
+ul.menu li a {
+display: block;
+color: #fff;
+padding: 0 40px;
+text-align: center;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+overflow: hidden;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-property: color, background-color;
+transition-property: color, background-color;
+}
+
+ul.menu li a:hover {
+text-decoration: none;
+background-color: #2a2929;
+}
+
+
+
+/* RESPONSIVE MENU */
+.dropdown {
+margin: 0;
+padding: 10px 0;
+}
+
+ul.resmenu {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+ul.resmenu li {
+float: left;
+display: block;
+margin: 0;
+padding: 0;
+width: 25%;
+background: #000;
+border-right: 1px solid #4c4b4b;
+text-align: center
+}
+
+ul.resmenu li a {
+display: inline-block;
+text-align: center;
+font-size: 20px;
+color: #fff;
+background: none;
+text-decoration: none;
+margin: 0;
+padding: 15px 0
+}
+
+ul.resmenu li a:hover {
+color: #5882FA
+}
+.bottom-images{
+overflow: hidden;
+}
+.bottom-images img {
+margin-bottom: 30px;
+border: 1px solid #eee;
+padding: 10px;
+}
+/* SUCHE */
+.header-suche {
+padding: 0;
+margin: 10px 10px 0 0;
+border: none;
+float: right;
+color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.header-suche a {
+color: rgba(255, 255, 255, 0.25) !important;
+text-decoration: none;
+}
+
+.header-suche a:hover {
+text-decoration: none;
+}
+
+.suchfeld {
+width: 250px;
+height: 50px;
+float: left;
+font-family: 'Open Sans', serif;
+background: rgba(0, 0, 0, 0.15);
+color: rgba(255, 255, 255, 0.25) !important;
+line-height: 50px;
+margin: 0;
+padding: 0 20px;
+border: none;
+text-align: left
+}
+
+.suchbutton {
+float: right;
+width: 50px;
+height: 50px;
+background: rgba(0, 0, 0, 0.15);
+color: rgba(255, 255, 255, 0.25) !important;
+font-size: 20px;
+text-align: center;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+.suchbutton i {
+line-height: 50px;
+color: rgba(255, 255, 255, 0.25)
+}
+
+.header-suche:hover .suchbutton,
+.header-suche:hover .suchfeld {
+background: rgba(0, 0, 0, 0.2)
+}
+
+/* ARTIKELBILDER */
+img {
+max-width: 100%;
+height: auto
+}
+
+.artikelbilder.galerie {
+display: inline-block;
+position: relative;
+width: 100%;
+height: auto;
+}
+
+.artikelbilder.galerie>.anker {
+display: none;
+}
+
+.artikelbilder.galerie>ul {
+position: relative;
+z-index: 1;
+font-size: 0;
+line-height: 0;
+margin: 0 auto;
+padding: 0;
+height: auto;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.artikelbilder.galerie>ul>.slide.img img {
+width: 100%;
+height: auto;
+}
+
+.artikelbilder.galerie>ul>.slide {
+position: relative;
+display: inline-block;
+width: 100%;
+height: auto;
+overflow: hidden;
+line-height: normal;
+white-space: normal;
+vertical-align: top;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+/* Thumbnails */
+.artikelbilder.galerie>.thumb {
+position: absolute;
+left: 0;
+width: 100%;
+height: auto;
+z-index: 6;
+text-align: center;
+}
+
+.artikelbilder.galerie>.thumb>div {
+margin-left: -50%;
+width: 100%;
+}
+
+.artikelbilder.galerie>.thumb>label {
+position: relative;
+display: inline-block;
+cursor: pointer;
+}
+
+.artikelbilder.galerie>.thumb {
+bottom: 5px;
+margin-bottom: 5px;
+}
+
+.artikelbilder.galerie>.thumb>label {
+border-radius: 50%;
+margin: 0 5px;
+padding: 9px;
+background: none;
+}
+
+.artikelbilder.galerie>.thumb>label>.anker {
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -2px;
+margin-top: -2px;
+background: transparent;
+border-radius: 50%;
+padding: 2px;
+}
+
+.artikelbilder.galerie>.thumb>label:hover>.anker,
+.artikelbilder.galerie>#slide1:checked~.thumb>label.pic1>.anker,
+.artikelbilder.galerie>#slide2:checked~.thumb>label.pic2>.anker,
+.artikelbilder.galerie>#slide3:checked~.thumb>label.pic3>.anker,
+.artikelbilder.galerie>#slide4:checked~.thumb>label.pic4>.anker,
+.artikelbilder.galerie>#slide5:checked~.thumb>label.pic5>.anker,
+.artikelbilder.galerie>#slide6:checked~.thumb>label.pic6>.anker,
+.artikelbilder.galerie>#slide7:checked~.thumb>label.pic7>.anker,
+.artikelbilder.galerie>#slide8:checked~.thumb>label.pic8>.anker,
+.artikelbilder.galerie>#slide9:checked~.thumb>label.pic9>.anker,
+.artikelbilder.galerie>#slide10:checked~.thumb>label.pic10>.anker,
+.artikelbilder.galerie>#slide11:checked~.thumb>label.pic11>.anker,
+.artikelbilder.galerie>#slide12:checked~.thumb>label.pic12>.anker,
+.artikelbilder.galerie>#slide13:checked~.thumb>label.pic13>.anker,
+.artikelbilder.galerie>#slide14:checked~.thumb>label.pic14>.anker,
+.artikelbilder.galerie>#slide15:checked~.thumb>label.pic15>.anker,
+.artikelbilder.galerie>#slide16:checked~.thumb>label.pic16>.anker {
+background: none;
+}
+
+.artikelbilder.galerie {
+height: auto;
+max-height: auto;
+margin-bottom: 0;
+text-align: center;
+}
+
+.artikelbilder.galerie img {
+border-radius: 3px;
+}
+
+.artikelbilder.galerie .thumb {
+position: relative;
+width: 100%;
+text-align: left;
+margin-top: 10px;
+}
+
+.artikelbilder.galerie>.thumb>label {
+box-sizing: border-box;
+border-radius: none;
+margin: 0 auto;
+padding: 5px;
+background: none;
+text-align: center;
+}
+
+.artikelbilder.galerie>.thumb>label img {
+margin: 0 auto;
+}
+
+.artikelbilder.galerie>ul>.slide.img img {
+width: auto;
+max-width: 100%;
+max-height: 100%;
+margin: 0 auto;
+}
+
+.artikelbilder.galerie>ul>.slide {
+text-align: center;
+}
+
+.artikelbilder.galerie img {
+box-shadow: none;
+width: 100%;
+height: auto;
+max-width: 100%;
+}
+
+/* Original-Bild */
+.artikelbilder.galerie>#slide1:checked~ul>.slide.pic1,
+.artikelbilder.galerie>#slide2:checked~ul>.slide.pic2,
+.artikelbilder.galerie>#slide3:checked~ul>.slide.pic3,
+.artikelbilder.galerie>#slide4:checked~ul>.slide.pic4,
+.artikelbilder.galerie>#slide5:checked~ul>.slide.pic5,
+.artikelbilder.galerie>#slide6:checked~ul>.slide.pic6,
+.artikelbilder.galerie>#slide7:checked~ul>.slide.pic7,
+.artikelbilder.galerie>#slide8:checked~ul>.slide.pic8,
+.artikelbilder.galerie>#slide9:checked~ul>.slide.pic9,
+.artikelbilder.galerie>#slide10:checked~ul>.slide.pic10,
+.artikelbilder.galerie>#slide11:checked~ul>.slide.pic11,
+.artikelbilder.galerie>#slide12:checked~ul>.slide.pic12,
+.artikelbilder.galerie>#slide13:checked~ul>.slide.pic13,
+.artikelbilder.galerie>#slide14:checked~ul>.slide.pic14,
+.artikelbilder.galerie>#slide15:checked~ul>.slide.pic15,
+.artikelbilder.galerie>#slide16:checked~ul>.slide.pic16 {
+opacity: 1;
+z-index: 2;
+}
+
+/* Animations */
+.artikelbilder.galerie>ul>.slide {
+display: inline-block;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+z-index: 1;
+-webkit-transition: opacity 1250ms ease;
+transition: opacity 1250ms ease;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+
+@-webkit-keyframes fade {
+
+0%,
+37.254901960784316%,
+100% {
+opacity: 0;
+}
+
+12.254901960784315%,
+25% {
+opacity: 1;
+}
+
+0%,
+24.999% {
+z-index: 2;
+}
+
+25.001%,
+100% {
+z-index: 1;
+}
+}
+
+@keyframes fade {
+
+0%,
+37.254901960784316%,
+100% {
+opacity: 0;
+}
+
+12.254901960784315%,
+25% {
+opacity: 1;
+}
+
+0%,
+24.999% {
+z-index: 2;
+}
+
+25.001%,
+100% {
+z-index: 1;
+}
+}
+
+/* Größe */
+.artikelbilder.galerie {
+max-width: 480px;
+}
+
+.artikelbilder.galerie>ul {
+height: 397px;
+}
+
+.artikelbilder.galerie>ul>.slide.img img {
+max-height: 397px;
+width: auto;
+margin: 0 auto;
+}
+
+.artikelbilder.galerie>.thumb>label img {
+max-height: 80px;
+width: auto;
+margin: 0 auto;
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+.artikelbilder.galerie {
+max-width: 322px;
+}
+
+.artikelbilder.galerie>ul {
+height: 322px;
+}
+
+.artikelbilder.galerie>ul>.slide.img img {
+max-height: 322px;
+width: auto;
+margin: 0 auto;
+}
+
+.artikelbilder.galerie>.thumb>label img {
+max-height: 60px;
+width: auto;
+margin: 0 auto;
+}
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+.artikelbilder.galerie {
+max-width: 500px;
+}
+
+.artikelbilder.galerie>ul {
+height: 500px;
+}
+
+.artikelbilder.galerie>ul>.slide.img img {
+max-height: 500px;
+width: auto;
+margin: 0 auto;
+}
+
+.artikelbilder.galerie>.thumb>label img {
+max-height: 85px;
+width: auto;
+margin: 0 auto;
+}
+}
+
+@media (max-width: 768px) {
+.artikelbilder.galerie {
+max-width: 300px;
+}
+
+.artikelbilder.galerie>ul {
+height: 300px;
+}
+
+.artikelbilder.galerie>ul>.slide.img img {
+max-height: 300px;
+width: auto;
+margin: 0 auto;
+}
+
+.artikelbilder.galerie>.thumb>label img {
+max-height: 50px;
+width: auto;
+margin: 0 auto;
+}
+}
+
+/* TEXT & ÜBERSCHRIFTEN */
+.textbox {
+margin: 20px 0 0;
+padding: 0;
+padding-bottom: 10px;
+background: #fff;
+text-align: left;
+font-family: 'Open Sans', serif;
+border: 1px solid #eee
+}
+
+.textbox p {
+margin: 0;
+padding: 20px;
+padding-bottom: 10px
+}
+
+.main {
+margin-right: 0 !important
+}
+
+.sidebar h1,
+.textbox h1 {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 16px;
+background: #3e454c;
+border-bottom: 5px solid #5882FA;
+padding: 15px 0;
+margin: 0;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* SHOPKATEGORIEN */
+ul.katmenu {
+margin: 0 auto;
+padding: 0;
+padding-top: 10px;
+text-align: left;
+width: 100%;
+}
+
+ul.katmenu li {
+display: block;
+margin: 0;
+padding: 0;
+list-style-type: none;
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 11px
+}
+
+ul.katmenu li a {
+display: inline-block;
+margin: 0;
+padding: 5px 15px;
+color: #3e454c;
+text-decoration: none;
+}
+
+ul.katmenu li a:hover {
+color: #5882FA;
+text-decoration: none;
+padding-left: 20px;
+transition: all 0.2s ease;
+}
+
+/* UNTERKATEGORIE */
+ul.katmenu li ul {
+margin: 0;
+padding: 0 0 0 10px;
+}
+
+ul.katmenu li ul li {
+margin: 0;
+padding: 0;
+}
+
+/* SERVICE */
+.service {
+height: 40px;
+margin: 20px;
+padding: 0;
+color: #3e454c;
+text-align: left;
+font-size: 12px
+}
+
+.service i {
+width: 45px;
+float: left;
+margin: 0 5px 0 0;
+padding: 0;
+color: rgba(0, 0, 0, 0.15);
+font-size: 30px;
+text-align: center;
+}
+
+.service:hover i {
+color: #5882FA;
+}
+
+.service span {
+display: block;
+margin: 0;
+padding: 0;
+color: #5882FA;
+line-height: 16px;
+font-size: 16px;
+font-weight: 700;
+}
+
+/* ARTIKELBESCHREIBUNG */
+.artwrap,
+.artpic {
+margin: 0;
+padding: 0
+}
+
+.artpic {
+padding: 20px;
+text-align: center
+}
+
+.artdsc {
+padding-top: 10px;
+padding-right: 20px
+}
+
+.artdsc p,
+.tab-content p {
+margin: 10px 0;
+padding: 0
+}
+
+.tab-content h1{
+text-align: left;
+}
+
+.artwrap h2 {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 18px;
+color: #3e454c;
+text-align: left
+}
+
+.artwrap h3 {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 14px;
+color: #3e454c;
+text-align: left
+}
+
+.artwrap h4 {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 42px;
+color: #3e454c;
+text-align: center;
+padding: 20px 0
+}
+
+.artdsc ul,
+.tab-content ul {
+margin: 0;
+padding: 0;
+font-size: 14px;
+}
+
+.artdsc ul li,
+.tab-content ul li {
+list-style-type: none;
+background: #fff;
+margin: 1px 0;
+padding: 7px 12px;
+border-top: 1px solid rgba(0, 0, 0, 0.05);
+line-height: 20px;
+text-indent: -1em;
+padding-left: 1.4em;
+}
+
+.artdsc ul li:last-child,
+.tab-content ul li:last-child {
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.artdsc ul li:hover,
+.tab-content ul li:hover {
+background: rgba(0, 0, 0, 0.02);
+}
+
+.artdsc ul li:before,
+.tab-content ul li:before {
+font-family: 'FontAwesome';
+content: '\f105';
+font-size: 14px;
+padding-right: 10px;
+color: #5882FA;
+}
+
+.artwrap h4 span {
+font-size: 12px;
+color: rgba(0, 0, 0, 0.4);
+font-weight: 300
+}
+
+/* VARIANTEN */
+span.var {
+display: inline-block;
+min-width: 60px;
+padding: 10px;
+margin: 3px;
+color: #3e454c;
+border: 1px solid #f2f2f2;
+text-align: center;
+cursor: default;
+background: #f7f7f7;
+}
+
+/* STYLES */
+blockquote {
+display: block;
+margin: 20px 0;
+padding: 20px;
+font-family: 'Open Sans', serif;
+font-size: 14px;
+color: #3e454c;
+background: #f5f5f5;
+border-left: 4px solid #5882FA;
+}
+
+code {
+display: block;
+margin: 20px 0;
+padding: 20px;
+font-family: 'Open Sans', serif;
+font-size: 14px;
+color: #fff;
+background: #3e454c;
+border-left: 4px solid #5882FA;
+}
+
+mark {
+font-family: 'Open Sans', serif;
+font-size: 14px;
+color: #3e454c;
+background: #fff0ce;
+}
+
+small {
+font-size: 12px;
+color: #999;
+}
+
+kbd {
+font-family: 'Open Sans', serif;
+font-size: 14px;
+box-shadow: none;
+font-weight: 700;
+background: #5882FA;
+}
+
+/* BUTTONS */
+a.skb {
+display: block;
+font-weight: 700;
+font-size: 16px;
+background: #3e454c;
+margin: 0;
+padding: 10px;
+color: #fff !important;
+text-decoration: none;
+text-align: center;
+border-bottom: 5px solid #5882FA;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+overflow: hidden;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-property: color, background-color;
+transition-property: color, background-color;
+}
+
+a.skb:hover {
+background: #3e454c;
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+a.beo,
+a.fst {
+width: 49%;
+float: left;
+margin: 0;
+padding: 15px 0;
+text-align: center;
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 14px;
+display: inline-block;
+text-decoration: none;
+color: #3e454c;
+background: #fff;
+}
+
+a.beo:hover i,
+a.fst:hover i {
+background: #5882FA;
+}
+
+a.beo i,
+a.fst i i {
+width: 22px;
+height: 22px;
+background: #3e454c;
+color: #fff;
+font-size: 13px;
+text-align: center;
+padding: 5px;
+margin: 0 5px 0 0;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+}
+
+a.beo i.fa-inverse,
+a.fst i.fa-inverse {
+color: #fff !important;
+}
+
+/* TABS */
+.tabs {
+margin: 10px 0 30px 0;
+padding: 0;
+background: none
+}
+
+.tabs input[type=radio] {
+display: none
+}
+
+.tabs label {
+display: block;
+float: left;
+font-family: 'Open Sans', serif;
+color: #fff;
+font-size: 14px;
+font-weight: 700;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+background: #3e454c;
+padding: 17px 30px;
+margin: 0 10px 0 0;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+overflow: hidden;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-property: color, background-color;
+transition-property: color, background-color;
+}
+
+.tabs label span {
+display: inline-block
+}
+
+.tab-content {
+display: none;
+width: 100%;
+float: left;
+padding: 15px 20px;
+box-sizing: border-box;
+background: #fff;
+border-top: 5px solid #5882FA;
+margin-top: 0;
+text-align: left
+}
+
+.tab-content h1,
+.tab-content h2,
+.tab-content h3,
+.tab-content h4,
+.tab-content h5,
+.tab-content h6 {
+font-family: 'Open Sans', serif;
+color: #3e454c;
+background: none;
+border: none;
+font-size: 18px;
+font-weight: 700;
+border-bottom: 1px dotted rgba(0, 0, 0, 0.05);
+margin: 0 0 10px 0;
+padding: 10px 0
+}
+
+.tab-content h2 {
+font-size: 18px;
+color: #5882FA;
+}
+
+.tab-content h3 {
+font-size: 16px;
+color: #3e454c;
+}
+
+.tab-content h4 {
+font-size: 16px;
+color: #5882FA;
+}
+
+.tab-content h5 {
+font-size: 14px;
+color: #3e454c;
+}
+
+.tab-content h6 {
+font-size: 14px;
+color: #5882FA;
+}
+
+.tabs [id^="tab"]:checked+label {
+background: #5882FA;
+color: #fff
+}
+
+#tab1:checked~#tab-content1,
+#tab2:checked~#tab-content2,
+#tab3:checked~#tab-content3,
+#tab4:checked~#tab-content4,
+#tab5:checked~#tab-content5,
+#tab6:checked~#tab-content6,
+#tab7:checked~#tab-content7,
+#tab8:checked~#tab-content8,
+#tab9:checked~#tab-content9 {
+display: block;
+}
+
+.tabs:after {
+content: '';
+display: table;
+clear: both
+}
+
+.tab-content ul {
+margin: 10px 0
+}
+
+.tab-content a {
+color: #3e454c;
+font-weight: 700;
+text-decoration: none
+}
+
+.tab-content a:hover {
+color: #5882FA;
+text-decoration: none
+}
+
+/* TABLE */
+.tab-content table {
+margin: 20px 0;
+cursor: default;
+font-family: 'Open Sans', serif;
+color: #3e454c;
+font-size: 14px;
+}
+
+.tab-content table tr {
+border-bottom: 1px solid #eee;
+}
+
+.tab-content table tr:nth-child(odd) {
+background: #f9f9f9;
+}
+
+.tab-content table tr:last-child {
+border-bottom: none;
+}
+
+.tab-content table td {
+padding: 10px;
+}
+
+.tab-content table td:first-child {
+font-weight: 700;
+border-right: 1px solid #eee;
+}
+
+/* FOOTER */
+.footer {
+padding: 0 10px 10px 10px;
+margin: 0;
+font-family: 'Open Sans', serif;
+color: rgba(255, 255, 255, 0.4);
+}
+
+.footer h1 {
+font-family: 'Open Sans', serif;
+font-weight: 700;
+font-size: 16px;
+background: #3e454c;
+border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+padding: 15px 0;
+margin: 0 10px;
+margin-top: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+text-shadow: 1px 1px 0px #222;
+}
+
+.footer ul.katmenu li {
+margin: 0 0 0 10px;
+padding: 0;
+width: 90%
+}
+
+.footer ul.katmenu li:before {
+color: #5882FA;
+position: relative;
+left: 30px
+}
+
+.footer ul.katmenu li a {
+color: #fff;
+padding-left: 40px;
+}
+
+.footer ul.katmenu li:hover {
+background: rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+.footer ul.katmenu li:hover a,
+.footer ul.katmenu li a:hover {
+color: #fff
+}
+
+.footer ul.katmenu li a:hover i {
+color: #fff
+}
+
+.footer p {
+padding: 10px
+}
+
+a.footbtn {
+margin: 0 25px;
+overflow: hidden;
+display: block;
+background: rgba(0, 0, 0, 0.2);
+font-size: 14px;
+padding: 0 10px;
+line-height: 50px;
+color: rgba(255, 255, 255, 0.5);
+text-decoration: none;
+text-align: center;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+overflow: hidden;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-property: color, background-color;
+transition-property: color, background-color;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+a.footbtn i {
+position: relative;
+color: #5882FA;
+font-size: 18px;
+padding-right: 10px;
+position: relative;
+top: 1px
+}
+
+a.footbtn:hover {
+background: rgba(0, 0, 0, 0.3);
+}
+
+/* MEDIA QUERY */
+@media (min-width:992px) and (max-width: 1200px) {
+.logo img {
+max-width: 250px;
+height: auto;
+margin: 35px 0 0 0;
+}
+
+.header-info {
+padding-left: 0;
+}
+
+.header-link {
+margin: 48px 0 0 0
+}
+
+ul.menu li {
+width: 140px
+}
+
+.suchfeld {
+width: 180px
+}
+
+.service {
+font-size: 10px
+}
+
+.artdsc {
+margin-top: 0;
+padding-top: 0
+}
+
+a.nws {
+font-size: 12px
+}
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+.header-info {
+padding-left: 0px
+}
+
+.artdsc {
+padding: 10px 30px
+}
+
+.artwrap h2 {
+padding-top: 0;
+margin-top: 0
+}
+
+.xsell h1 {
+padding: 10px
+}
+
+.xsell h2 {
+padding-bottom: 10px
+}
+}
+
+@media (max-width: 768px) {
+.tabs label {
+width: 100%
+}
+.pro-dec {
+padding: 20px;
+}
+.textbox p {
+padding: 0;
+}
+.tabs label span {
+display: inline-block
+}
+
+.sidebar .textbox {
+width: 100%;
+margin: 0
+}
+
+.logo {
+margin: 0 auto;
+padding: 15px 0;
+text-align: center;
+}
+
+.logo i {
+transform: scale(0.7);
+margin: 5px 0 0 0;
+}
+
+.logo h1 {
+font-size: 24px;
+line-height: 20px;
+margin: 18px 0 0 0
+}
+
+.logo img {
+max-width: 280px;
+height: auto;
+margin: 10px auto 0 auto;
+}
+
+.xsell h1 {
+padding: 20px 10px
+}
+
+.xsell h2 {
+padding-bottom: 10px
+}
+
+a.beo,
+a.fst {
+width: 100%;
+float: none;
+padding: 15px 0 0 0
+}
+
+.footer {
+margin-bottom: 0
+}
+
+.footer p {
+font-size: 14px;
+padding: 20px
+}
+
+.artdsc {
+padding: 0 20px
+}
+}
+
+</style> <!-- Header -->
+<div class="container-fluid header-bg">
+<div class="container">
+<!-- Row -->
+<div class="row">
+<!-- Logo -->
+<div class="col-md-4 col-sm-4 logo"><a href="https://www.ebay.de/str/compustuff" target="_blank"><img src="https://img.bildhost.com/file/bildhostcom/2022/03/22/20863-Compustuff_300x300-01.png" alt="20863-Compustuff_300x300-01.png" border="0" height="150px" width="150px"></a> <!-- Logo -->
+</div><!-- Weitere Angebote -->
+<div class="col-lg-4 col-md-5 col-sm-4 header-link hidden-xs">
+
+</div><!-- Icons -->
+<div class="col-lg-4 col-md-3 col-sm-4 hidden-xs header-info"><i class="fa fa-star"></i> Zufriedenheitsgarantie<br><i class="fa fa-info"></i> Kompetente Beratung<br><i class="fa fa-truck"></i> Kostenloser Versand<br><i class="fa fa-refresh"></i> Garantierte Rücknahme
+<!-- Icons -->
+</div><!-- Row -->
+</div><!-- Row -->
+<div class="row">
+<!-- Menubar -->
+<div class="col-md-12 hidden-xs menubar">
+<!-- Menu -->
+<ul class="menu">
+<li><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener">Shop</a></li>
+<li><a target="_blank" href="https://www.ebay.de/usr/compustuff" rel="noopener">Verkäuferprofil</a></li>
+<li><a target="_blank" href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=compustuff" rel="noopener">Bewertungen</a></li>
+<li><a target="_blank" href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=compustuff" rel="noopener">Kontakt</a></li><!-- Menu -->
+</ul><!-- Suche -->
+<!-- Menubar -->
+</div><!-- Responsive-Menu -->
+<div class="col-md-12 hidden-md hidden-lg hidden-sm dropdown">
+<!-- Menu-Icons -->
+<ul class="resmenu">
+<li><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> <i class="fa fa-home"></i> </a></li>
+<li><a target="_blank" href="https://www.ebay.de/usr/compustuff" rel="noopener"> <i class="fa fa-user"></i> </a></li>
+<li><a target="_blank" href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=compustuff" rel="noopener"> <i class="fa fa-star"></i> </a></li>
+<li><a target="_blank" href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=compustuff" rel="noopener"> <i class="fa fa-envelope"></i> </a></li><!-- Menu-Icons -->
+</ul><!-- Responsive-Menu -->
+</div><!-- Row -->
+</div><!-- Header -->
+</div>
+</div><!-- Header / -->
+
+<div class="container-fluid content-bg">
+<div class="container">
+<!-- Row -->
+<div class="row">
+<!-- Content-Main -->
+<div class="col-md-12 maincontent">
+<!-- Artikelbeschreibung -->
+<div class="textbox main">
+<h1>[product_name]</h1><!-- Row -->
+<div class="row">
+<div class="col-md-12">
+<div class="pro-dec text-center">
+
+[product_description]
+<br>
+[product_description_short]
+
+
+</div>
+</div>
+</div>
+<div class="row artwrap">
+<!-- Artikelbilder -->
+<div class="col-sm-6 artpic">
+<div class="artikelbilder galerie">
+
+[product_main_image]
+
+</div>
+</div><!-- Artikeldetails -->
+<div class="col-sm-6 artdsc">
+
+<ul>
+<ul>[product_feature(10,Modell)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(4,Kapazität je Modul)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(5,Bänke/Ranks)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(6,Busgeschwindigkeit)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(1,Buffer)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(2,Fehlerkorrektur ECC)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(3,Low Voltage)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(7,Formfaktor)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(9,Anzahl der Module je Angebot)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(8,Gesamtkapazität)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(11,Anzahl der Pins)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(12,Produktart)]</ul>
+</ul>
+<br />
+<ul>
+<ul>[product_feature(44,Einsatzgebiet)]</ul>
+</ul>
+<br><br>
+
+
+
+
+
+</div>
+
+
+</div>
+
+<div class="bottom-images">
+<div class="col-md-12">
+<div class="row">
+<div class="col-sm-4 text-center">
+[product_image(1)]
+</div>
+<div class="col-sm-4 text-center">
+[product_image(2)]
+</div>
+<div class="col-sm-4 text-center">
+[product_image(3)]
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4 text-center">
+[product_image(4)]
+</div>
+<div class="col-sm-4 text-center">
+[product_image(5)]
+</div>
+<div class="col-sm-4 text-center">
+[product_image(6)]
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid content-bg">
+<div class="container">
+<div class="row">
+<div class="col-md-12 textbox">
+<h2 style="font-size: 16px; margin: 30px 0; text-align: center;">Hinweis: <br>Für die Richtigkeit und Vollständigkeit der hier aufgeführten Daten wird keine Haftung übernommen.</h2>
+<h4><span style="font-size: large; text-align: center; display: block;"><strong>Rechnungsstellung erfolgt ohne Ausweis der Umsatzsteuer nach §19 UStG.</strong> <br></span></h4><span>
+<!--start-inline--> <a class="skb" href="https://offer.ebay.de/ws/eBayISAPI.dll?BinConfirm&amp;item=314168534872" target="_blank" rel="noopener"> <i class="fa fa-shopping-basket fa-fw"></i> Sofort-Kaufen</a>
+<!--end-inline-->
+<!--start-inline--> <a class="beo" href="https://cgi3.ebay.de/ws/eBayISAPI.dll?MakeTrack&amp;item=314168534872" target="_blank" rel="noopener"> <i class="fa fa-plus"></i> Artikel beobachten</a>
+<!--end-inline-->
+<!-- FRAGE STELLEN --> <a class="beo" href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=compustuff" target="_blank" rel="noopener"> <i class="fa fa-question"></i> Frage stellen</a> <!-- Artikeldetails -->
+</span>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid content-bg">
+<div class="container">
+<div class="row">
+<div class="col-md-12 textbox">
+<span style="font-size: medium;"><span style="font-size: medium;">
+<!-- Tabs -->
+</span></span> <input type="radio" name="tabs" id="tab1"> <label for="tab1"> <span>Zahlung</span> </label> <input type="radio" name="tabs" id="tab2"> <label for="tab2"> <span>Versand</span> </label> <input type="radio" name="tabs" id="tab3"> <label for="tab3"> <span>Entsorgung Batterien</span> </label> <input type="radio" name="tabs" id="tab4"> <label for="tab4"> <span>Entsorgung E-Geräte</span> </label>
+<div id="tab-content1" class="tab-content">
+<h1>Zahlungsoptionen</h1>
+
+<img src="pay.JPG" alt="">
+
+<br><br>
+<h1>Preisgestaltung</h1>Alle angegebenen Preise sind Gesamtpreise zzgl. Liefer-/ Versandkosten. <br>Aufgrund des Kleinunternehmerstatus gemäß § 19 UStG erheben wir keine Umsatzsteuer und weisen diese daher auch nicht aus. <br>Versandkostenfreie Angaben beziehen sich nur auf die angedachte Versandart, wird eine andere Versandart gewählt so ist diese Kostenpflichtig.
+</div>
+<div id="tab-content2" class="tab-content">
+<h1>Versandoptionen</h1>Wir versenden ausschließlich mit: <img src="https://img.bildhost.com/file/bildhostcom/2022/03/22/zvi03-dhl.png" alt="zvi03-dhl.png" border="0"> <img src="https://img.bildhost.com/file/bildhostcom/2022/03/22/zvi03-dp.png" alt="zvi03-dp.png" border="0">
+</div>
+<div id="tab-content3" class="tab-content">
+<h1>Hinweis</h1>
+<blockquote>Wir sind verpflichtet, Sie darauf hinzuweisen, dass Batterien Sonderabfall sind, und somit nicht im Hausmüll entsorgt werden dürfen. Sie als Verbraucher sind gesetzlich dazu verpflichtet, die Rückgabe / Entsorgung gesetzeskonform durchzuführen. Batterien tragen als Symbol die durchgestrichene Mülltonne. Zudem finden Sie darunter Abkürzungen mit folgender Bedeutung: <br>
+<div style="float: left;"><img src="https://img.bildhost.com/file/bildhostcom/2022/03/22/Batterie-Kennzeichnung.png" alt="Batterie-Kennzeichnung.png" border="0" style="width: 25vw; min-width: 140px;"></div>
+<div><br>Pb: Diese Batterie enthält Blei <br><br>Hg: Diese Batterie enthält Quecksilber <br><br>Cd: Diese Batterie enthält Cadmium <br><br>
+<div style="clear: left;">Neben diesen Umweltgefährdenden Stoffen enthalten Batterien aber auch wichtige Rohstoffe wie Eisen, Mangan, Zink welche durch entsprechendes Recycling wiederverwendet werden können. Daher bitten wir sie Ihre Altbatterien entsprechend zu entsorgen."<p></p>
+</div>
+</div>
+</blockquote>
+<h1>Wo kann ich die Batterien entsorgen?</h1><code><code>An Sammelstellen in Ihrer unmittelbaren Nähe. Dies wären unter anderem:<br> <br></code></code>
+<ul>
+<li>Örtlicher Handel (Verkaufsstellen)</li>
+<li>bei uns als Ihr Online Händler, senden sie hierfür die Batterien einfach ausreichend frankiert an uns zurück, bitte beachten sie hierbei die jeweiligen Transportvorschriften Ihres Versanddienstleisters.</li>
+<li>Kommunale Sammelstellen</li>
+</ul><code> <br>Die Abgabe in Verkaufsstellen ist dabei auf für Endnutzer übliche Mengen sowie solche Altbatterien beschränkt (gleicher Typ), die der Vertreiber als Anbieter in seinem Sortiment führt oder geführt hat.<br> Entsorgen Sie richtig, der Umwelt zuliebe. Bei weiteren Fragen können Sie uns gerne kontaktieren!</code>
+</div>
+<div id="tab-content4" class="tab-content">
+<h1>Informationen zu Elektro- und Elektronikgeräten:</h1>Die nachfolgenden Hinweise richten sich an private Haushalte, die Elektro- und/ oder Elektronikgeräte nutzen. <br><br>Bitte beachten Sie diese wichtigen Hinweise im Interesse einer umweltgerechten Entsorgung von Altgeräten sowie Ihrer eigenen Sicherheit. <br><br><b> 1. Hinweise zur Entsorgung von Elektro- und Elektronikgeräten und zur Bedeutung des Symbols nach Anhang 3 zum ElektroG:</b> <br><br>Besitzer von Altgeräten haben diese einer vom unsortierten Siedlungsabfall getrennten Erfassung zuzuführen. Elektro- und Elektronikaltgeräte dürfen daher nicht als unsortierter Siedlungsabfall beseitigt werden und gehören insbesondere nicht in den Hausmüll. Vielmehr sind diese Altgeräte getrennt zu sammeln und etwa über die örtlichen Sammel- und Rückgabesysteme zu entsorgen. <br><br>Besitzer von Altgeräten haben zudem Altbatterien und Altakkumulatoren, die nicht vom Altgerät umschlossen sind, vor der Abgabe an einer Erfassungsstelle von diesem zu trennen. Siehe auch Reiter <a href="tab-content4">Entsorgung Batterien.</a> <br><br>Anhand des Symbols nach Anlage 3 zum ElektroG können Besitzer Altgeräte erkennen, die getrennt vom unsortierten Siedlungsabfall zu erfassen sind. Das Symbol für die getrennte Erfassung von Elektro- und Elektronikgeräten stellt eine durchgestrichene Abfalltonne auf Rädern dar. <br><br><b>2. Hinweise zu den Möglichkeiten der Rückgabe von Altgeräten:</b> <br><br>Besitzer von Altgeräten können diese im Rahmen der durch öffentlich-rechtlichen Entsorgungsträger eingerichteten und zur Verfügung stehenden Möglichkeiten der Rückgabe oder Sammlung von Altgeräten abgeben, damit eine ordnungsgemäße Entsorgung der Altgeräte sichergestellt ist. Gegebenenfalls ist dort auch eine Abgabe von Elektro- und Elektronikgeräten zum Zwecke der Wiederverwendung der Geräte möglich. Nähere Informationen hierzu erhalten Sie von der jeweiligen Sammel- bzw. Rücknahmestelle. <br><br>Unter dem folgenden Link besteht die Möglichkeit, sich ein Onlineverzeichnis der Sammel- und Rücknahmestellen anzuzeigen zu lassen: <br><br>https://www.ear-system.de/ear-verzeichnis/sammel-und-ruecknahmestellen <br><br><b>3. Hinweis zum Datenschutz:</b> <br><br>Auf zu entsorgenden Altgeräten befinden sich teilweise sensible personenbezogene Daten (etwa auf einem PC oder einem Smartphone), die nicht in die Hände Dritter gelangen dürfen. Wir weisen ausdrücklich darauf hin, dass Endnutzer von Altgeräten eigenverantwortlich für die Löschung personenbezogener Daten auf den zu entsorgenden Altgeräten sorgen müssen.
+</div><!-- Tabs -->
+<!-- Content-Main -->
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid content-bg">
+<div class="container">
+<div class="row">
+
+<span><span><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener">
+<!-- Content-Sidebar -->
+</a> </span> <a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> </a></span>
+<a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> <span>
+<!-- Row -->
+</span> </a>
+<a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> <span>
+<!-- Content -->
+<!-- Footer -->
+</span> </a>
+<div class="container-fluid footer-bg"><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> </a>
+<div class="container"><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener">
+<!-- Row -->
+</a>
+<div class="row"><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> </a>
+<div class="col-sm-4 footer">
+<h1>Links</h1><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener"> </a>
+
+
+<ul class="katmenu">
+<li><a target="_blank" href="https://www.ebay.de/str/compustuff" rel="noopener">Shop</a></li>
+<li><a target="_blank" href="https://www.ebay.de/usr/compustuff" rel="noopener">Verkäuferprofil</a></li>
+<li><a target="_blank" href="https://feedback.ebay.de/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=compustuff" rel="noopener">Bewertungen</a></li>
+<li><a target="_blank" href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=compustuff" rel="noopener">Kontakt</a></li>
+</ul>
+
+
+</div><!-- Footer -->
+<div class="col-sm-4 footer">
+<h1>Mitgliedschaften</h1>
+
+<img src="https://img.bildhost.com/file/bildhostcom/2022/03/22/logo-fairness-160.png" alt="logo-fairness-160.png" border="0" width="25%"><img src="https://img.bildhost.com/file/bildhostcom/2022/06/09/DGP_Label.png" alt="DGP_Label.png" border="0" width="25%"><img src="https://img.bildhost.com/file/bildhostcom/2022/03/22/logo-fairness-160.png" alt="logo-fairness-160.png" border="0" width="25%"><img src="https://img.bildhost.com/file/bildhostcom/2022/06/09/DGP_Label.png" alt="DGP_Label.png" border="0" width="25%">
+
+</div>
+<div class="col-sm-4 footer">
+<h1>Kontakt</h1>
+<p>Haben Sie Fragen zu unseren Angeboten? Kontaktieren Sie uns gerne jederzeit über das eBay Kontaktformular.</p><a class="footbtn" target="_blank" href="https://contact.ebay.de/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=compustuff" rel="noopener"> <i class="fa fa-comments-o fa-fw"></i> eBay Nachricht</a>
+</div><!-- Row -->
+</div><!-- Footer -->
+</div>
+</div><span><span>
+<!--start-inline-->
+</span></span>
+<div vocab="https://schema.org/" typeof="Product" style="display: none;"><span property="description"> </span></div>
+
+</div>
+</div>
+</div>
